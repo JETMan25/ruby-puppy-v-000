@@ -9,6 +9,7 @@ class Dog
   
   def self.all
     @@all.each do |dog|
+      dog = @name
    end 
    
   end
