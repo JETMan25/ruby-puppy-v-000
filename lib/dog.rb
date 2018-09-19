@@ -16,6 +16,7 @@ class Dog
     dog_name[dog]
   end
 end
+end
 
   def self.clear_all(name)
     @@all
