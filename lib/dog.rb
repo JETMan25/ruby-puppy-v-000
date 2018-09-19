@@ -15,6 +15,7 @@ class Dog
       else
   self.all[dog] = 1 
 end
+end
    
   end
  
