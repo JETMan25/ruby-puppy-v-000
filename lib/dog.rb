@@ -8,8 +8,12 @@ class Dog
   end
   
   def self.all
+    dog_name = {}
     @@all.each do |dog|
-
+  if dog_name[dog]
+    dog_name[dog] += 1 
+  else
+    dog_name[dog]
   end
 end
 
