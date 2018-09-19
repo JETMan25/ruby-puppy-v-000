@@ -11,7 +11,7 @@ class Dog
     dog_name = {}
     @@all.each do |dog|
     if dog_name[dog] = @@all
-      
+   end 
   end
   dog_name
 end
