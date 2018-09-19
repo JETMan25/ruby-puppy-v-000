@@ -11,7 +11,7 @@ class Dog
     dog_name = {}
     @@all.include?
     
-  end
+  
   dog_name
 end
 
