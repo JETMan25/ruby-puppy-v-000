@@ -10,10 +10,9 @@ class Dog
   def self.all
     dog_name = {}
     @@all.each do |dog|
-      puts dog
+      dog = @name 
     end
-  
-  dog_name
+    dog_name
 end
 
   def self.clear_all
