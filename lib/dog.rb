@@ -9,8 +9,9 @@ class Dog
   
   def self.all
     dog_name = {}
-    @@all.any?
-    
+    @@all.each do |dog|
+      puts dog
+    end
   
   dog_name
 end
