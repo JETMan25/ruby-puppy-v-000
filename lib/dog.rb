@@ -10,9 +10,9 @@ class Dog
   def self.all
     dog_name = {}
     @@all.each do |dog|
-      dog = @@all
+      if dog_name[dog] == @name
+      dog_name
     end
-    dog_name
 end
 
   def self.clear_all
