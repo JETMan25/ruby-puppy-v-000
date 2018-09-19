@@ -9,7 +9,7 @@ class Dog
   
   def self.all
     dog_name = {}
-    @@all.include? do |dog|
+    @@all.include?
     
   end
   dog_name
