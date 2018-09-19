@@ -13,7 +13,8 @@ class Dog
       if dog_name[dog] == @name
       dog_name
     end
-end
+    end
+  end
 
   def self.clear_all
     @@all.clear
