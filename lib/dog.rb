@@ -8,12 +8,10 @@ class Dog
   end
   
   def self.all
-    dog_name = {}
     @@all.each do |dog|
-  dog_name[dog]
+    dog_name[dog]
 
-
-end
+  end
 end
 
   def self.clear_all(name)
